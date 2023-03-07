@@ -19,13 +19,9 @@ public class DmvSimulator {
             count = 1;
         } else if (ticket == count) {
             System.out.println(ticket);
-                int magicnum = rand.nextInt(100) + 1;
-            if(magicnum == 15) {
-                System.out.println("Oh my favorite number! You have the correct paperwork. Thank you!");
-            } else {
             System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow.");
-            }
-        }   
+        }
+        }
     }
 }
 }
