@@ -3,7 +3,6 @@ public class DmvSimulator {
     public static void main(String[] args) {
 
         Random rand = new Random();
-
         int ticket = rand.nextInt(200);
 
         System.out.println("\nHello! Welcome to the DMV!");
@@ -13,15 +12,16 @@ public class DmvSimulator {
         System.out.println(" -----------------");
 
         int count = ticket + 1;
-        while (count != ticket) {
+    while (count != ticket) {
              System.out.println(count);
              count ++;
          if (count == 201 ) {
-            count = 100;
+            count = 1;
         } else if (ticket == count) {
             System.out.println(ticket);
-            System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow. MUAHAHAHA");
+            System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow.");
         }
         }
     }
+}
 }
