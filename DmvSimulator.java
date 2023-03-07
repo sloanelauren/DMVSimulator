@@ -20,7 +20,7 @@ public class DmvSimulator {
             count = 100;
         } else if (ticket == count) {
             System.out.println(ticket);
-            System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow.");
+            System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow. MUAHAHAHA");
         }
         }
     }
