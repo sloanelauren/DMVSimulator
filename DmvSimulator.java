@@ -23,7 +23,7 @@ public class DmvSimulator {
             if(magicnum == 15) {
                 System.out.println("Oh my favorite number! You have the correct paperwork. Thank you!");
             } else {
-            System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow.");
+            System.out.println("We can't accept this paperwork, get to the back of the line or come back tomorrow. MUAHAHAHA");
             }
         }
         }
